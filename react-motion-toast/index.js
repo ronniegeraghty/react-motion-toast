@@ -43,7 +43,7 @@ function (_Component) {
   _createClass(MotionToast, [{
     key: "render",
     value: function render() {
-      return _react["default"].createElement("div", null, "I am a dummy react npm module");
+      return _react["default"].createElement("div", null, "Ronnie Test Test Test");
     }
   }]);
 

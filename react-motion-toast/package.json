@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/ronniegeraghty/react-motion-toast#readme",
   "peerDependencies": {
-    "react": "^16.6.1",
-    "react-dom": "^16.6.3"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",

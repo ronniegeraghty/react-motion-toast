@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-motion-toast": "../react-motion-toast/",
+    "react-motion-toast": "../react-motion-toast",
     "react-scripts": "3.2.0"
   },
   "scripts": {
