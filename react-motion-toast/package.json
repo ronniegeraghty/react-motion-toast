@@ -1,0 +1,32 @@
+{
+  "name": "react-motion-toast",
+  "version": "1.0.0",
+  "description": "A react component that adds motion through animation to the react-bootstrap toast component. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronniegeraghty/react-motion-toast.git"
+  },
+  "author": "Ronnie Geraghty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronniegeraghty/react-motion-toast/issues"
+  },
+  "homepage": "https://github.com/ronniegeraghty/react-motion-toast#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
