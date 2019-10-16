@@ -1,6 +1,6 @@
 {
   "name": "react-motion-toast",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A react component that adds motion through animation to the react-bootstrap toast component. ",
   "author": "ronniegeraghty",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "start": "rollup -c -w",
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "dev": "concurrently \"npm start\" \"cd example && npm start\""
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -34,6 +35,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "concurrently": "^5.0.0",
     "cross-env": "^5.1.4",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
