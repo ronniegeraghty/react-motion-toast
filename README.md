@@ -2,7 +2,9 @@
 
 > A react component that adds motion through animation to the react-bootstrap toast component. 
 
-[![NPM](https://img.shields.io/npm/v/react-motion-toast.svg)](https://www.npmjs.com/package/react-motion-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-motion-toast.svg)](https://www.npmjs.com/package/react-motion-toast)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm](https://img.shields.io/npm/dt/react-motion-toast)](https://www.npmjs.com/package/react-motion-toast)
 
 ## Install
 
