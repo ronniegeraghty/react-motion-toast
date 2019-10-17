@@ -20,7 +20,8 @@
     "prepare": "npm run build",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
-    "dev": "concurrently \"npm start\" \"cd example && npm start\""
+    "dev": "concurrently \"npm start\" \"cd example && npm start\"",
+    "dual-install": "npm i && cd example && npm i"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",

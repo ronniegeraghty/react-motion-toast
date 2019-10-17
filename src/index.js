@@ -12,7 +12,7 @@ export default class MotionToast extends Component {
     const { text } = this.props;
 
     return (
-      <div className={styles.test}>
+      <div className={styles.toast}>
         Example Component: {text}
         <h1>Ronnie</h1>
       </div>
