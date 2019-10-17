@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import MotionToast from "./";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("MotionToast", () => {
+  it("is truthy", () => {
+    expect(MotionToast).toBeTruthy();
+  });
+});

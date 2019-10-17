@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'react-motion-toast'
+import MotionToast from "react-motion-toast";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <MotionToast text="Modern React component module" />
       </div>
-    )
+    );
   }
 }
