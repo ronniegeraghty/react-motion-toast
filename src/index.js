@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import styles from "./styles.css";
 
-export default class ExampleComponent extends Component {
+export default class MotionToast extends Component {
   static propTypes = {
     text: PropTypes.string
   };
@@ -14,7 +14,7 @@ export default class ExampleComponent extends Component {
     return (
       <div className={styles.test}>
         Example Component: {text}
-        <h1>Test</h1>
+        <h1>Ronnie</h1>
       </div>
     );
   }
